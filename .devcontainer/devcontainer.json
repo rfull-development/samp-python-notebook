@@ -1,0 +1,31 @@
+// Copyright (c) 2023 RFull Development
+// This source code is managed under the MIT license. See LICENSE in the project root.
+{
+	"name": "Python",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"PYTHON_VERSION": "3.10",
+			"INSTALL_PACKAGES": "jq"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.isort",
+				"ms-python.vscode-pylance",
+				"ms-toolsai.jupyter",
+				"ms-toolsai.jupyter-renderers",
+				"ms-toolsai.vscode-jupyter-cell-tags",
+				"ms-toolsai.vscode-jupyter-slideshow",
+				"eamodio.gitlens",
+				"EditorConfig.EditorConfig",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"GitHub.vscode-pull-request-github",
+				"github.vscode-github-actions"
+			]
+		}
+	}
+}
